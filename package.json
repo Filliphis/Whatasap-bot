@@ -1,0 +1,22 @@
+{
+  "name": "whatsapp-projeto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot/bot.js",
+  "scripts": {
+    "start": "concurrently \"node Api/server.js\" \"node bot/bot.js\"",
+    "install-all": "npm install"
+  },
+  "dependencies": {
+    "axios": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.14.1"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0"
+  }
+}
